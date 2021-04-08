@@ -1,0 +1,37 @@
+2021/04/06 11:22:05 [emerg] 22262#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2021/04/06 11:22:05 [emerg] 22262#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2021/04/06 11:22:05 [emerg] 22262#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2021/04/06 11:22:05 [emerg] 22262#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2021/04/06 11:22:05 [emerg] 22262#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2021/04/06 11:22:05 [emerg] 22262#0: still could not bind()
+2021/04/06 12:55:47 [notice] 22816#0: signal process started
+2021/04/06 15:30:37 [emerg] 23899#0: directive "content_by_lua_file" is not terminated by ";" in /home/youthterm/work/conf/nginx.conf:17
+2021/04/06 15:31:23 [emerg] 23907#0: directive "content_by_lua_file" is not terminated by ";" in /home/youthterm/work/conf/nginx.conf:17
+2021/04/06 15:32:15 [notice] 23915#0: signal process started
+2021/04/06 15:47:28 [alert] 24324#0: lua_code_cache is off; this will hurt performance in /home/youthterm/work/conf/nginx.conf:9
+2021/04/06 15:47:28 [notice] 24324#0: signal process started
+2021/04/06 15:47:28 [alert] 22354#0: lua_code_cache is off; this will hurt performance in /home/youthterm/work/conf/nginx.conf:9
+2021/04/06 16:33:56 [alert] 24699#0: lua_code_cache is off; this will hurt performance in /home/youthterm/work/conf/nginx.conf:9
+2021/04/06 16:33:56 [emerg] 24699#0: unexpected "}" in /home/youthterm/work/conf/nginx.conf:22
+2021/04/06 16:38:01 [alert] 24857#0: lua_code_cache is off; this will hurt performance in /home/youthterm/work/conf/nginx.conf:9
+2021/04/06 16:38:01 [notice] 24857#0: signal process started
+2021/04/06 16:38:01 [alert] 22354#0: lua_code_cache is off; this will hurt performance in /home/youthterm/work/conf/nginx.conf:9
+2021/04/06 16:43:30 [error] 24858#0: *14 lua entry thread aborted: runtime error: /home/youthterm/work/lua/get_random_string.lua:7: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/home/youthterm/work/lua/get_random_string.lua:7: in main chunk, client: 127.0.0.1, server: , request: "GET /get_random_string?salt=123 HTTP/1.1", host: "localhost:8090"
+2021/04/06 16:46:04 [error] 24858#0: *15 lua entry thread aborted: runtime error: /home/youthterm/work/lua/get_random_string.lua:7: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/home/youthterm/work/lua/get_random_string.lua:7: in main chunk, client: 127.0.0.1, server: , request: "GET /get_random_string?salt=123 HTTP/1.1", host: "localhost:8090"
+2021/04/06 16:46:30 [error] 24858#0: *17 lua entry thread aborted: runtime error: /home/youthterm/work/lua/get_random_string.lua:6: attempt to concatenate global 'slt' (a nil value)
+stack traceback:
+coroutine 0:
+	/home/youthterm/work/lua/get_random_string.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /get_random_string?salt=123 HTTP/1.1", host: "localhost:8090"
+2021/04/06 20:42:23 [alert] 26473#0: lua_code_cache is off; this will hurt performance in /home/youthterm/work/conf/nginx.conf:9
+2021/04/06 20:42:23 [notice] 26473#0: signal process started
+2021/04/06 20:42:23 [alert] 22354#0: lua_code_cache is off; this will hurt performance in /home/youthterm/work/conf/nginx.conf:9
+2021/04/08 10:24:58 [alert] 40882#0: lua_code_cache is off; this will hurt performance in /home/youthterm/work/conf/nginx.conf:9
+2021/04/08 10:24:58 [notice] 40882#0: signal process started
